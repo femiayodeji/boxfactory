@@ -15,7 +15,7 @@ public class ObstacleSpawner : MonoBehaviour
          int rand = Random.Range(0, ObstaclePrefab.Length);
 
          GameObject obstacle = Instantiate(ObstaclePrefab[rand]);
-         obstacle.transform.position = transform.position + new Vector3(0, 0, 0);
+         obstacle.transform.position = transform.position + new Vector3(0, -1.05595f, -2.0f);
          Destroy(obstacle, 15);
          timer = 0;
      }

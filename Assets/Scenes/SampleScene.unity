@@ -566,9 +566,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObstaclePrefab:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1601967749785663415, guid: 16107514c369a734c932300935cf2b98, type: 3}
+  - {fileID: 6578505725926157222, guid: 4f604ad3e541c8b41975b25fe6cbb509, type: 3}
+  - {fileID: 4338793574288124835, guid: b7715cc4c7a69894c9fc972031489dd8, type: 3}
   spawnTime: 1
 --- !u!4 &1872099044
 Transform:
