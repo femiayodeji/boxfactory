@@ -13,8 +13,8 @@ public class PlayerMovement : MonoBehaviour
         movement.z = Input.GetAxisRaw("Horizontal");        
     }
 
-    void FIxedUpdate()
+    void FixedUpdate()
     {
-        rBody.MovePosition(rBody.position + movement * Time.fixedDeltaTime);
+        rBody.MovePosition(rBody.position + movement * Time.fixedDeltaTime * moveSpeed);
     }
 }
