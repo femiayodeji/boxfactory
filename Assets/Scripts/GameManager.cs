@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    GameObject gameOverCanvas;
+    [SerializeField]
+    public GameObject gameOverCanvas;
 
     void Start()
     {

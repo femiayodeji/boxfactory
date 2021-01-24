@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6578505724209959514}
   m_Layer: 0
   m_Name: CubeLeft
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 6578505725713177904}
   m_Layer: 0
   m_Name: CubeRight
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,5 +265,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.75, y: 1, z: 3.22}
-  m_Center: {x: 1.82, y: -1.12, z: 4.98}
+  m_Size: {x: 0.75, y: 0.2, z: 3.22}
+  m_Center: {x: 1.82, y: -1.45, z: 4.98}
