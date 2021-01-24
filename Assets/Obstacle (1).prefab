@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 6578505725926157221}
   - component: {fileID: -6415622139095000662}
   - component: {fileID: 170274800793726153}
+  - component: {fileID: 1140820462}
   m_Layer: 0
   m_Name: Obstacle (1)
   m_TagString: Untagged
@@ -253,3 +254,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1140820462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578505725926157222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.75, y: 1, z: 3.22}
+  m_Center: {x: 1.82, y: -1.12, z: 4.98}
