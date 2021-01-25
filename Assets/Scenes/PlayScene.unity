@@ -923,7 +923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &517902905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1455,7 +1455,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2009426189}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Replay
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2258,4 +2258,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4bcbc952e016c140817d963aff55329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartCanvas: {fileID: 517902904}
   gameOverCanvas: {fileID: 237516215}
