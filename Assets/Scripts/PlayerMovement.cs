@@ -8,8 +8,13 @@ public class PlayerMovement : MonoBehaviour
     public GameManager gameManager;
     public Rigidbody rBody;
     public float moveSpeed = 7f;
+    public AudioSource collisionSound;
     
     private Vector3 movement;    
+
+    void Start()
+    {
+    }
 
     void Update()
     {
@@ -25,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if((collider.tag == "Obstacle"))
         {
-            // boxCollider.enabled = true;
+            collisionSound.Play();
             gameManager.GameOver();
         }
     }
