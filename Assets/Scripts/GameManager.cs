@@ -6,12 +6,11 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    public GameObject gameStartCanvas;
     public GameObject gameOverCanvas;
 
     void Start()
     {
-        Time.timeScale = 0;   
+        Time.timeScale = 1;   
     }
 
     public void GameOver()
@@ -22,8 +21,7 @@ public class GameManager : MonoBehaviour
 
     public void Play()
     {
-        gameStartCanvas.SetActive(false);
-        Time.timeScale = 1;   
+        SceneManager.LoadScene(0);
     }
 
     public void Replay()
