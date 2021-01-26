@@ -12,7 +12,15 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;   
     }
-
+    
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
+    
     public void GameOver()
     {
         gameOverCanvas.SetActive(true);
@@ -22,6 +30,11 @@ public class GameManager : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 
     public void Replay()
