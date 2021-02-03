@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerKeyMovement : MonoBehaviour
 {
     public BoxCollider boxCollider;
     public GameManager gameManager;
