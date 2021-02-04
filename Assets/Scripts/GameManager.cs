@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     public GameObject gameOverCanvas;
+    [SerializeField]
+    public GameObject gamePauseCanvas;
 
     void Start()
     {
@@ -37,9 +39,16 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void Pause()
+    public void ShowMenu()
     {
-        Time.timeScale = Time.timeScale == 0 ? 1 : 0;
+        Time.timeScale = 0;
+        gamePauseCanvas.SetActive(true);
+    }
+
+    public void Resume()
+    {
+        gamePauseCanvas.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void Replay()
