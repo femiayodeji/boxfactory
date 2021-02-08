@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverCanvas;
     [SerializeField]
     public GameObject gamePauseCanvas;
+    [SerializeField]
+    public GameObject gameCreditCanvas;
 
     void Start()
     {
@@ -32,6 +34,16 @@ public class GameManager : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void ShowCredit()
+    {
+        gameCreditCanvas.SetActive(true);
+    }
+
+    public void HideCredit()
+    {
+        gameCreditCanvas.SetActive(false);
     }
 
     public void Exit()

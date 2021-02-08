@@ -778,7 +778,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1172159613}
-        m_MethodName: Play
+        m_MethodName: ShowCredit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -934,6 +934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverCanvas: {fileID: 0}
   gamePauseCanvas: {fileID: 0}
+  gameCreditCanvas: {fileID: 2045468031}
 --- !u!4 &1172159614
 Transform:
   m_ObjectHideFlags: 0
@@ -1769,13 +1770,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541301132}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1124424862}
-  m_Father: {fileID: 2045468035}
-  m_RootOrder: 1
+  m_Father: {fileID: 1787296648}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1826,7 +1827,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1172159613}
-        m_MethodName: Exit
+        m_MethodName: HideCredit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2049,12 +2050,13 @@ RectTransform:
   - {fileID: 1414307477}
   - {fileID: 1475453435}
   - {fileID: 66836811}
+  - {fileID: 1541301133}
   m_Father: {fileID: 2045468035}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 19}
   m_SizeDelta: {x: 696.4774, y: 858.06256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787296649
@@ -2277,7 +2279,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1787296648}
-  - {fileID: 1541301133}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
