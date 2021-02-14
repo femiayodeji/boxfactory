@@ -8,11 +8,11 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Instincts Technologies
+  companyName: Instincts
   productName: Box Factory
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -250,7 +250,7 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 1
-  androidSplashScreen: {fileID: 2800000, guid: cb6868769f873c34e9f6ae9a97540099, type: 3}
+  androidSplashScreen: {fileID: 2800000, guid: 2c247096202bc914c8f5eeb9791d3ead, type: 3}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0

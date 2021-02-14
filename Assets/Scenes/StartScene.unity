@@ -1018,7 +1018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA9 Instincts Technologies"
+  m_Text: "\xA9 Instincts"
 --- !u!222 &1237886198
 CanvasRenderer:
   m_ObjectHideFlags: 0
