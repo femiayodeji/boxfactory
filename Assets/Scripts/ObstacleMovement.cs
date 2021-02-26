@@ -10,6 +10,7 @@ public class ObstacleMovement : MonoBehaviour
     void Start()
     {
         scoreUIText = GameObject.FindGameObjectWithTag("ScoreText");
+        AdManager.Instance.ShowBanner();
     }
     
     void Update()
