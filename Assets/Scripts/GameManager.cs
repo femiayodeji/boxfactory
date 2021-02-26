@@ -28,12 +28,14 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         AdManager.Instance.HideBanner();
+        AdManager.Instance.ShowInterstitialAd();
         gameOverCanvas.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void Play()
     {
+        AdManager.Instance.ShowInterstitialAd();
         SceneManager.LoadScene(1);
     }
 
