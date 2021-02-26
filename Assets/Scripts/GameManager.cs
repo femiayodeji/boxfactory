@@ -27,15 +27,12 @@ public class GameManager : MonoBehaviour
     
     public void GameOver()
     {
-        AdManager.Instance.HideBanner();
-        AdManager.Instance.ShowInterstitialAd();
         gameOverCanvas.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void Play()
     {
-        AdManager.Instance.ShowInterstitialAd();
         SceneManager.LoadScene(1);
     }
 
@@ -56,14 +53,12 @@ public class GameManager : MonoBehaviour
 
     public void ShowMenu()
     {
-        AdManager.Instance.HideBanner();
         Time.timeScale = 0;
         gamePauseCanvas.SetActive(true);
     }
 
     public void Resume()
     {
-        AdManager.Instance.ShowBanner();
         gamePauseCanvas.SetActive(false);
         Time.timeScale = 1;
     }
